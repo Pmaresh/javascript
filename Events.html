@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <Script>
+        function showName(){
+            alert('Hello '+ document.alertform.Yourname.value);
+        }
+    </Script>
+</head>
+<body>
+    <h1>Java <Script> Events</Script></h1>
+    <hr>
+    <form name="alertform">
+
+        Enter Your Name:
+        <input type="text" name="Yourname">
+        <input type="button" value="Go"
+        onclick="window.alert('Hello '+ document.alertform.Yourname.value);"><br>
+
+        <input type="button" value="Go"
+        onclick=showName();>
+    </form>
+</body>
+</html>
